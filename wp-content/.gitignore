@@ -1,0 +1,45 @@
+# === WordPress Core Files ===
+/wp-*.php
+/xmlrpc.php
+/index.php
+/license.txt
+/readme.html
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/akismet/
+/wp-content/plugins/hello.php
+/wp-content/themes/twentytwenty*/
+.htaccess
+
+# === Sensitive or Temporary Files ===
+wp-config.php
+wp-config-sample.php
+error_log
+*.log
+
+# === User Uploads ===
+wp-content/uploads/
+
+# === Plugin/Theme Cache or Log Files ===
+*.zip
+*.bak
+*.swp
+*.tmp
+
+# === OS/IDE Generated Files ===
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.vscode/
+*.idea/
+
+# === GitHub Images in Project Root ===
+image*.png
+
+# === Composer / Node Artifacts (if used) ===
+/node_modules/
+/vendor/
+
+# === GitHub default ===
+*.env
+.env.*
