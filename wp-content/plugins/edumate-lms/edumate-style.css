@@ -1,0 +1,104 @@
+/* edumate-style.css */
+
+/* Font and Base Setup */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Student Dashboard */
+.edumate-dashboard {
+    background: linear-gradient(135deg, #e0f7fa, #ffffff);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.edumate-dashboard h3 {
+    color: #0a3d62;
+    margin-bottom: 15px;
+}
+
+.edumate-dashboard h4 {
+    margin-top: 25px;
+    color: #2f3640;
+}
+
+.edumate-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.edumate-dashboard ul li {
+    padding: 8px 0;
+}
+
+.edumate-dashboard ul li a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.edumate-dashboard ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Course List Grid */
+.edumate-courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.edumate-courses .course {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.edumate-courses .course:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.course-title {
+    font-size: 20px;
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.course-excerpt {
+    font-size: 14px;
+    color: #636e72;
+    margin-bottom: 20px;
+}
+
+/* Enroll Button */
+.enroll-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #00a8ff;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-button:hover {
+    background-color: #0097e6;
+}
