@@ -71,6 +71,7 @@ Use this shortcode in any page/post to display all available courses:
 ```text
 [edumate_course_list]
 ```
+![Folder Structure](https://github.com/user-attachments/assets/47996ec8-c416-4330-b531-a3ba00176a64)
 
 ---
 
