@@ -71,6 +71,13 @@ Use this shortcode in any page/post to display all available courses:
 ```text
 [edumate_course_list]
 ```
+
+## 📁 Project Folder Structure
+
+The following image shows the internal file structure of the EduMate LMS WordPress plugin and theme:
+
+![EduMate LMS Folder Structure](https://github.com/user-attachments/assets/3b5e7b41-a79d-44b6-a9d2-71d3b97dbc97)
+
 ![Folder Structure](https://github.com/user-attachments/assets/47996ec8-c416-4330-b531-a3ba00176a64)
 
 ---
